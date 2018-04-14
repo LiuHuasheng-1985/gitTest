@@ -36,3 +36,11 @@ git remote -v
 git checkout -b dev origin/dev
 git pull
 git branch --set-upstream dev origin/dev
+git tag <name>
+git tag <name> commitid
+git show <tagname>
+git tag -a <tagname> -m "version info released" commitid
+git tag -d <tagname>
+git push origin <tagname>
+git push origin --tags
+git push origin :refs/tags/<tagname>
