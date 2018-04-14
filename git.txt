@@ -16,4 +16,5 @@ git checkout -b dev
 
 git branch dev
 git checkout dev
-gi branch
+git branch
+git merge dev
