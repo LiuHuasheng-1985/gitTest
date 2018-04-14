@@ -7,3 +7,6 @@ git log --pretty=oneline
 git reset
 git checkout
 git diff
+git remote add origin git@github.com:LiuHuasheng-1985/gitTest.git
+git push -u origin master
+git push origin master
