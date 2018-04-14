@@ -11,3 +11,8 @@ git remote add origin git@github.com:LiuHuasheng-1985/gitTest.git
 git push -u origin master
 git push origin master
 git clone git@github.com:LiuHuasheng-1985/gitStudy.git
+
+git checkout -b dev
+
+git branch dev
+git checkout dev
