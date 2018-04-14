@@ -29,4 +29,10 @@ git stash list
 git stash apply
 git stash drop
 git stash pop
+git stash apply stash@{0}
+git branch -D <name>
+git remote -v
 
+git checkout -b dev origin/dev
+git pull
+git branch --set-upstream dev origin/dev
